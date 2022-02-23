@@ -1,0 +1,34 @@
+<ion-header>  
+  <ion-toolbar color="primary">  
+    <ion-buttons slot="start">  
+      <ion-menu-button color="dark"></ion-menu-button>   
+    </ion-buttons>  
+    <ion-title>  
+      Acceuil
+    </ion-title>  
+  </ion-toolbar>   
+</ion-header>  
+
+<ion-content>
+  <ion-item>
+    <ion-label position="floating">Description</ion-label>
+    <ion-input type="text"></ion-input>
+  </ion-item>
+  
+  <ion-list>
+    <ion-item>
+      <ion-label>Type Signalement</ion-label>
+      <ion-select value="brown" okText="Okay" cancelText="Dismiss">
+        <ion-select-option value="brown">Feu de brousse</ion-select-option>
+        <ion-select-option value="blonde">Secheresse</ion-select-option>
+        <ion-select-option value="black">Dechets</ion-select-option>
+        <ion-select-option value="red">Maladie</ion-select-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+
+  <ion-button expand="full" routerLink="/camera">Suivant</ion-button>
+
+
+
+</ion-content>
